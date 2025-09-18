@@ -113,6 +113,6 @@ with engine.connect() as conn:
             ORDER BY approach_count DESC;
         """)).fetchall()
 
-# Display query results
+# Displaying query results
 if 'result' in locals():
     st.write(result)
